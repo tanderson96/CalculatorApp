@@ -1,0 +1,24 @@
+.calculator {
+    width: 16.5rem;
+    height: 25rem;
+    background-color: rgb(43, 49, 49);
+    border-radius: .25rem;
+    padding: .5rem;
+}
+
+.display {
+    display: flex;
+    width: 85%;
+    margin: 1.5rem auto;
+    background-color: lightgray;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
